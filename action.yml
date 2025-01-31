@@ -1,0 +1,9 @@
+name: Set up easy-action
+description: Base Setup for easy-action
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/checkout@v4
+    - uses: hustcer/setup-nu@main
+    - run: version
