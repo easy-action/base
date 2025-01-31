@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     name: Test base action
     steps:
-      - uses: easy-action/base@master
+      - uses: easy-action/base@main
