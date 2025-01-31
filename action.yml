@@ -7,3 +7,4 @@ runs:
     - uses: actions/checkout@v4
     - uses: hustcer/setup-nu@main
     - run: version
+      shell: nu
